@@ -1,0 +1,21 @@
+TOOLS est une petite app regroupant plusieurs utilitaires simples:
+
+- Générateur de couleur aléatoire
+  - affichage de la couleur, nom, rgb, hexa
+- Générateur d'image aléatoire
+  - utiliser flickr
+  - afficher la localisation de l'image
+  - affichage, lien
+- menu burger interactif
+- model de page FAQ
+- système d'onglets sur un menu (comme sur mon projet de jeu)
+- snake game
+- space invader game
+- tetris game
+- système de pagination
+- slider horizontal de vues
+- Génération d'un profil aléatoire
+- Système de filtres
+- Dark mode
+- Compteur
+-

@@ -1,0 +1,47 @@
+:root {
+  --light-background-color: #fff;
+  --light-border-color: #000;
+  --light-text-color: #000;
+
+  --dark-background-color: #444;
+  --dark-border-color: #fff;
+  --dark-text-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dark {
+  background-color: var(--dark-background-color);
+  color: var(--dark-text-color);
+  border-color: var(--dark-border-color);
+}
+
+#app-theme-button {
+  margin: .5rem;
+  padding: .5rem;
+  border: 2px solid var(--light-border-color);
+}
+
+#app-theme-button:hover {
+  background-color: #f1f1f1;
+}
+
+#app-theme-button.dark:hover {
+  background-color: #4f4f4f;
+}
+
+#bg-color-button {
+  text-transform: uppercase;
+}
+
+footer {
+  color: red;
+}
+
+*:visited {
+  color: unset;
+}
